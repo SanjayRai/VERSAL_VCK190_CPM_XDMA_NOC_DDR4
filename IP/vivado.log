@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Mar 22 14:13:58 2022
+# Process ID: 15998
+# Current directory: /home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP
+# Command line: vivado -source vivado_project.tcl
+# Log file: /home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/vivado.log
+# Journal file: /home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/home/sanjayr/.Xilinx/Vivado/Vivado_init.tcl'
+290 Beta devices matching pattern found, 152 enabled.
+start_gui
+source vivado_project.tcl
+# source ../device_type.tcl
+## proc DEVICE_TYPE {} {
+##     return  xcvc1902-vsva2197-2MP-e-S
+## }
+## proc DEVICE_TYPE_ES {} {
+##     return  xcvc1902-vsva2197-2MP-e-S-es1
+## }
+## proc BOARD_TYPE {} {
+##     return  xilinx.com:vck190:part0:2.2
+## }
+## proc BOARD_TYPE_ES {} {
+##     return xilinx.com:vck190_es:part0:1.4
+## }
+# create_project -force project_X project_X -part [DEVICE_TYPE] 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/applications/Xilinx/Vivado/2021.1/data/ip'.
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 7761.586 ; gain = 70.656 ; free physical = 17220 ; free virtual = 37957
+# set_property board_part [BOARD_TYPE] [current_project]
+# add_files -fileset sources_1 -norecurse {
+# ../IP/CPM_bd/CPM_bd.bd
+# ../IP/vio_0v/vio_0v.xci
+# }
+INFO: [Device 21-403] Loading part xcvc1902-vsva2197-2MP-e-S
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/calibration.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_ca_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_ca_vref_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_read_mgchk.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_write_mgchk.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_dqs_gate.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_rd_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_rd_dbi_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_rd_vref_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_write_complex.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_write_dqs_to_dq.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_write_latency_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_write_prbs.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_wrlvl.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ddr_wrvref.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/function_dec.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/function_def.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/lpddr4_init_seq.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/lrdimm_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/skip_ddr_dqs_gate.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/skip_ddr_rd_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/skip_ddr_rd_dbi_cal.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/test_ddr4.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/test_lpddr4.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/xsdb_functions.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/register_dump.c'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/cal_reg_define.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/global_variable_define.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/internal_reg_define.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/mc_reg_define.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/ral_ddrmc_main.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/riu_reg_define.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/svdpi.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/vmm_ral.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/xsdb_reg_define.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/register_dump.h'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/make_gcc.bat'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bd_f29c_MC0_ddrc_0_phy' generated file not found '/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/ip/CPM_bd_axi_noc_0_0/bd_0/ip/ip_5/ip_0/temp/make_gcc.sh'. Please regenerate to continue.
+add_files: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 8624.871 ; gain = 861.055 ; free physical = 16335 ; free virtual = 37071
+# proc regenrate_cips {} {
+#     reset_target all [get_files  cips_ddr_pl_debug.bd]
+#     generate_target all [get_files cips_ddr_pl_debug.bd]
+# }
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+open_bd_design {/home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/CPM_bd.bd}
+Reading block design file </home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/CPM_bd.bd>...
+Adding component instance block -- xilinx.com:ip:versal_cips:3.0 - versal_cips_0
+Adding component instance block -- xilinx.com:ip:axi_noc:1.0 - axi_noc_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:emb_mem_gen:1.0 - axi_bram_ctrl_0_bram
+Adding component instance block -- xilinx.com:ip:axis_ila:1.1 - axis_ila_BRAM
+Successfully read diagram <CPM_bd> from block design file </home/sanjayr/projects/VCK190/MSFT_VERSAL_VCK190_DEMO/T2_03_21_2022/IP/CPM_bd/CPM_bd.bd>
+INFO: [BD 41-2664] NoC address assignment is adjusted for /axi_noc_0/M00_AXI to be a legal PL/AIE offset and range (power of 2, min 64K). Old value: 0x20100000000 [0x2000]. New value: 0x20100000000 [0x10000]
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 8778.934 ; gain = 0.000 ; free physical = 16091 ; free virtual = 36828
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_2:  Val_hex_64:FFFFFF80
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+INFO: [xilinx.com:ip:cpm4:1.0-1] multiCore_gui_temp_hierIP_cpm4_3:  Val_hex_64:FFFFFF80
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 22 18:33:15 2022...

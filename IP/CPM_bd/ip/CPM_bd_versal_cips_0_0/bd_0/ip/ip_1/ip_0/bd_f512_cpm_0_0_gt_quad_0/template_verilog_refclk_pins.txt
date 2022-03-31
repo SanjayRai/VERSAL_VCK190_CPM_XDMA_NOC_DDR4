@@ -1,0 +1,89 @@
+
+
+
+wire clk_PROT0_R0;
+wire clk_PROT0_R1;
+wire clk_PROT0_R2;
+wire clk_PROT0_R3;
+wire clk_PROT0_R4;
+wire clk_PROT0_R5;
+
+reg   clk_lr0_tx = 1'b0;
+reg   clk_lr0_rx = 1'b0;
+reg   clk_lr1_tx = 1'b0;
+reg   clk_lr1_rx = 1'b0;
+reg   clk_lr2_tx = 1'b0;
+reg   clk_lr2_rx = 1'b0;
+reg   clk_lr3_tx = 1'b0;
+reg   clk_lr3_rx = 1'b0;
+reg   clk_lr4_tx = 1'b0;
+reg   clk_lr4_rx = 1'b0;
+reg   clk_lr5_tx = 1'b0;
+reg   clk_lr5_rx = 1'b0;
+
+
+always #5.0ns clk_lr0_tx =  ~clk_lr0_tx;
+always #5.0ns clk_lr1_tx =  ~clk_lr1_tx;
+always #5.0ns clk_lr2_tx =  ~clk_lr2_tx;
+always #5.0ns clk_lr3_tx =  ~clk_lr3_tx;
+always #5.0ns clk_lr4_tx =  ~clk_lr4_tx;
+always #5.0ns clk_lr5_tx =  ~clk_lr5_tx;
+ 
+always #5.0ns clk_lr0_rx =  ~clk_lr0_rx;
+always #5.0ns clk_lr1_rx =  ~clk_lr1_rx;
+always #5.0ns clk_lr2_rx =  ~clk_lr2_rx;
+always #5.0ns clk_lr3_rx =  ~clk_lr3_rx;
+always #5.0ns clk_lr4_rx =  ~clk_lr4_rx;
+always #5.0ns clk_lr5_rx =  ~clk_lr5_rx;
+
+ 
+ 
+ 
+assign clk_PROT0_R0       =      
+                                 (rate_sel_ip0 == 4'd0) ?  clk_lr0_rx : 
+                                 (rate_sel_ip0 == 4'd1) ?  clk_lr1_rx : 
+                                 (rate_sel_ip0 < 4'd1) ?  clk_lr0_rx : 
+                                 (rate_sel_ip0 == 4'd2) ?  clk_lr2_rx : 
+                                 (rate_sel_ip0 < 4'd2) ?  clk_lr1_rx : 
+                                 (rate_sel_ip0 == 4'd3) ?  clk_lr3_rx : 
+                                 (rate_sel_ip0 < 4'd3) ?  clk_lr2_rx : 
+                                 (rate_sel_ip0 == 4'd4) ?  clk_lr4_rx : 
+                                 (rate_sel_ip0 < 4'd4) ?  clk_lr3_rx : 
+                                 (rate_sel_ip0 == 4'd5) ?  clk_lr5_rx : 
+                                 (rate_sel_ip0 < 4'd5) ?  clk_lr4_rx : 
+ 
+                                 (rate_sel_ip0 > 4'd5) ?  clk_lr5_rx : 
+                                   clk_lr0_rx ; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+reg  clk_refclk0 = 1'b0;
+always #5.0ns clk_refclk0 =  ~clk_refclk0;
+
+
+

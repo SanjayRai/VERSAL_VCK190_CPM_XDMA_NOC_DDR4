@@ -1,0 +1,3 @@
+#source load_UDMABUF
+ddd --args ./passthru.dbg_hw df010000 
+#rmmod udmabuf

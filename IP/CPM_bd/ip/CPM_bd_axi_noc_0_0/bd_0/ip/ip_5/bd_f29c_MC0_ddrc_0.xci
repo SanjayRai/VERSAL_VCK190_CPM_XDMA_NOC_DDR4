@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:design xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>xilinx.com</spirit:vendor>
+  <spirit:library>xci</spirit:library>
+  <spirit:name>unknown</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:componentInstances>
+    <spirit:componentInstance>
+      <spirit:instanceName>bd_f29c_MC0_ddrc_0</spirit:instanceName>
+      <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="noc_mc_ddr4" spirit:version="1.0"/>
+      <spirit:configurableElementValues>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.AXI_ARBITRATION_SCHEME">TDM</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.BURST_LENGTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CAS_LATENCY">11</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CAS_WRITE_LATENCY">11</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CS_ENABLED">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CUSTOM_PARTS"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.DATA_MASK_ENABLED">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.DATA_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.MEMORY_PART"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.MEMORY_TYPE">COMPONENTS</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.MEM_ADDR_MAP">ROW_COLUMN_BANK</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.SLOT">Single</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.TIMEPERIOD_PS">1250</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH0_LPDDR4.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.AXI_ARBITRATION_SCHEME">TDM</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.BURST_LENGTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.CAS_LATENCY">11</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.CAS_WRITE_LATENCY">11</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.CS_ENABLED">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.CUSTOM_PARTS"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.DATA_MASK_ENABLED">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.DATA_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.MEMORY_PART"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.MEMORY_TYPE">COMPONENTS</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.MEM_ADDR_MAP">ROW_COLUMN_BANK</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.SLOT">Single</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_DDR4.TIMEPERIOD_PS">1250</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.CH1_LPDDR4.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_IN_0.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_IN_1.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_IN_2.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_IN_3.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_OUT_0.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_OUT_1.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_OUT_2.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.NPP_OUT_3.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK.CAN_DEBUG">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK.FREQ_HZ">200000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.ASSOCIATED_BUSIF"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.ASSOCIATED_RESET"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.CLK_DOMAIN"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.FREQ_HZ">100000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.SYS_CLK_I.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_CLK.ASSOCIATED_BUSIF"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_CLK.CLK_DOMAIN"/>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_CLK.FREQ_HZ">100000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_CLK.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_CLK.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_CLK.PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.UBLAZE_FABRIC_RESET_N.INSERT_VIP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC00">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC01">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC02">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC03">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC04">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC05">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC06">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC0A">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F0BC6X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F1BC0A">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F1BC6X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F5BC5X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F5BC6X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_F6BC4X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_FXBC7X_F0">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_FXBC7X_F5">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DB_FXBC7X_F6">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.DISABLE_DATA_CHECK_MONITOR">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.EN_NPP_MONITOR">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR11">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR12">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR13">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR14">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR15">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR16">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR17">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR2">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR20">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR22">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR23">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_LPDDR4_MR3">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR0">0x0000D50</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR1">0x0000301</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR2">0x00000E8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR3">0x0000020</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR4">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR5">0x0000400</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F0_MR6">0x000101C</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR0">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR1">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR2">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR3">0x0000020</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR4">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR5">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.F1_MR6">0x0000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.HDL_ATTR_FILE">nocattrs.dat</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.HDL_COMPONENT_NAME">bd_f29c_MC0_ddrc_0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_DDR4_ADDR_BIT">RA15,RA14,RA13,RA12,RA11,RA10,RA9,RA8,RA7,RA6,RA5,RA4,RA3,RA2,RA1,RA0,BA1,BA0,BG1,CA9,CA8,CA7,CA6,CA5,CA4,CA3,BG0,CA2,CA1,CA0,NC,NC,NC</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_CLKFBOUT_MULT">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_CLKOUT0_DIVIDE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_CLKOUT1_DIVIDE">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_CLKOUT2_DIVIDE">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_CLKOUT3_DIVIDE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_CLKOUTPHY_DIVIDE">DIV1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_DIVCLK_DIVIDE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F0_PLL0_CLKOUT0_NS">1.250</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_CLKFBOUT_MULT">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_CLKOUT0_DIVIDE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_CLKOUT1_DIVIDE">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_CLKOUT2_DIVIDE">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_CLKOUT3_DIVIDE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_CLKOUTPHY_DIVIDE">DIV1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_DIVCLK_DIVIDE">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_F1_PLL0_CLKOUT0_NS">1.25</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_INPUTCLK0_PERIOD_NS">5.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_INPUTCLK1_PERIOD_NS">2.5</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_NIBBLE_GROUP">NONE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_NOC_FREQ">1000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_PIN_PLACEMENT_ARGS">CONTROLLERTYPE DDR4_SDRAM MC_DQ_WIDTH 64 MC_DQS_WIDTH 8 MC_DM_WIDTH 8 MC_ADDR_WIDTH 17 MC_BG_WIDTH 2 MC_BA_WIDTH 2 MC_CKE_WIDTH 1 MC_CK_WIDTH 1 MC_CS_WIDTH 1 MC_STACKHEIGHT 1 MC_LR_WIDTH 1 MC_ODT_WIDTH 1 MC_COMPONENT_WIDTH x8 MC_MEMORY_DEVICETYPE UDIMMs MC_NO_CHANNELS Single MC_RANK 1 MC_SLOT Single MC_NUM_CK 1 MC_LP4_PIN_EFFICIENT false MC_CH0_LP4_CHA_ENABLE false MC_CH0_LP4_CHB_ENABLE false MC_CH1_LP4_CHA_ENABLE false MC_CH1_LP4_CHB_ENABLE false MC_LP4_DQ_A_WIDTH 0 MC_LP4_DQ_B_WIDTH 0 MC_LP4_D
+QS_A_WIDTH 0 MC_LP4_DQS_B_WIDTH 0 MC_LP4_DMI_A_WIDTH 0 MC_LP4_DMI_B_WIDTH 0 MC_LP4_CA_A_WIDTH 0 MC_LP4_CA_B_WIDTH 0 MC_LP4_CKT_A_WIDTH 0 MC_LP4_CKT_B_WIDTH 0 MC_LP4_CKE_A_WIDTH 0 MC_LP4_CKE_B_WIDTH 0 MC_LP4_CS_A_WIDTH 0 MC_LP4_CS_B_WIDTH 0 MC_LP4_RESETN_WIDTH 0 MC_PARITY false MC_WRITE_DM_DBI DM_NO_DBI MC_READ_DBI false MC_SYSTEM_CLOCK Differential MC_CONFIG_NUM config17</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MC_SIM_DEVICE">VERSAL_AI_CORE_ES1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MEMORY_TIMEPERIOD0">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.MEM_INIT_FILE">no_file_loaded</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NOC_NPP_WIDTH">182</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_0_EGR">0x00473610</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_0_ING">0x04534101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_0_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_0_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_1_EGR">0x00043210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_1_ING">0x00432101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_1_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_1_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_2_EGR">0x00043210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_2_ING">0x00432101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_2_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_2_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_3_EGR">0x00043210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_3_ING">0x00432101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_3_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.NPI_REG_DDRMC_NSU_3_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.PHYS_NAME">DDRMC_X0Y0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC10">0x0D30B289</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC11">0x001A284E</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC2">0x00005000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC3">0x00005000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC4">0x279A5923</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC5">0x1349140F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC6">0x185D6554</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC7">0x1D71B699</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC8">0x030207DE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_ADEC9">0x081C6144</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_BER_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_BEW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_CTRL0">0x01084210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_CTRL1">0x01084210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_ISR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_ISW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CMDQ_LLR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_CONFIG0">0x00000410</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_DRAM_ARB">0x0000001F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P0_BER_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P0_BEW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P0_ISR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P0_ISW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P0_LLR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P1_BER_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P1_BEW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P1_ISR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P1_ISW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P1_LLR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P2_BER_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P2_BEW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P2_ISR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P2_ISW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P2_LLR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P3_BER_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P3_BEW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P3_ISR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P3_ISW_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_P3_LLR_RATE_CTRL">0x003FFC0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_PINOUT">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_PT_CONFIG">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_QOS0">0x000F00F1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_QOS1">0x01004010</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_QOS2">0x00004010</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_QOS_TIMEOUT0">0x00739CE7</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_QOS_TIMEOUT1">0x3F3F3F3F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_QOS_TIMEOUT2">0x0000003F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RATE_CTRL_SCALE">0x00842108</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC00">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC01">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC02">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC03">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC03_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC04">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC04_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC05">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC05_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC08">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0A">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0A_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0B">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0D">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0E">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0F">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC0F_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC2X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC3X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC3X_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC5X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC5X_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC8X">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RC8X_F1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RD_CONFIG">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RD_DRR_TNK_P0">0x000F0F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RD_DRR_TNK_P1">0x000F0F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RD_DRR_TNK_P2">0x000F0F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_RD_DRR_TNK_P3">0x000F0F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_REF_0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG0">0x104A0304</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG1">0x00C18306</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG2">0x46331414</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG3">0x02041018</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG4">0x2CB8E1D0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG5">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG6">0x00003084</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG7">0x0200822E</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_SAFE_CONFIG8">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_TXN_CONFIG">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_WR_CONFIG">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_WR_DRR_TNK_P0">0x00000F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_WR_DRR_TNK_P1">0x00000F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_WR_DRR_TNK_P2">0x00000F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.REG_WR_DRR_TNK_P3">0x00000F0F</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.TCK">0x00000274</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.VERBOSITY_EN">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CONTROLLERTYPE">DDR4_SDRAM</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">bd_f29c_MC0_ddrc_0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDRESSMAP">ROW_COLUMN_BANK</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT0">NC</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT1">NC</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT10">CA6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT11">CA7</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT12">CA8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT13">CA9</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT14">BG1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT15">BA0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT16">BA1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT17">RA0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT18">RA1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT19">RA2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT2">NC</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT20">RA3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT21">RA4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT22">RA5</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT23">RA6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT24">RA7</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT25">RA8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT26">RA9</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT27">RA10</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT28">RA11</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT29">RA12</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT3">CA0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT30">RA13</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT31">RA14</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT32">RA15</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT33">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT34">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT35">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT36">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT37">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT38">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT39">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT4">CA1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT40">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT41">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT42">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT43">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT5">CA2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT6">BG0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT7">CA3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT8">CA4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_BIT9">CA5</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADDR_WIDTH">17</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADD_CMD_DELAY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ADD_CMD_DELAY_EN">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ATTR_FILE">nocattrs.dat</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_BA_WIDTH">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_BG_WIDTH">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_BOARD_INTRF_EN">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_BURST_LENGTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CASLATENCY">22</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CASWRITELATENCY">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CA_MIRROR">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CH0_LP4_CHA_ENABLE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CH0_LP4_CHB_ENABLE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CH1_LP4_CHA_ENABLE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CH1_LP4_CHB_ENABLE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CHANNEL_INTERLEAVING">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CHAN_REGION0">DDR_LOW0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CHAN_REGION1">NONE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CH_INTERLEAVING_SIZE">NONE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CKE_WIDTH">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CK_WIDTH">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CLA">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CLAMSHELL">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_COLUMNADDRESSWIDTH">10</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_COMPONENT_DENSITY">8Gb</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_COMPONENT_WIDTH">x8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CONFIG_NUM">config17</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CORRECT_EN">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_CS_WIDTH">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DATAWIDTH">64</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DC_CMD_CREDITS">0x000002a8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DDR4_2T">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DDR4_CTLE">000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DDR_INIT_TIMEOUT">0x00079C3E</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DEVICE_TYPE">S80</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DISABLE_DATA_CHECK">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DM_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DQS_WIDTH">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_DQ_WIDTH">64</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ECC">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ECC_SCRUB_PERIOD">0x003E80</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ECC_SCRUB_SIZE">8192</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EN_BACKGROUND_SCRUBBING">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EN_ECC_SCRUBBING">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EN_INTR_RESP">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EN_NPP_MONITOR">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EN_PERF_STATS">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EXMON_CLR_EXE">0x00000100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_EXTENDED_WDQS">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_ADD_CMD_DELAY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_ADD_CMD_DELAY_EN">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_CASLATENCY">24</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_CASWRITELATENCY">20</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_CLA">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR1">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR11">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR13">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR2">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR22">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR3">0x0000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_ODTLon">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_PARITYLATENCY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_RCD_DELAY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TCCD_3DS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TCCD_3DS_MIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TCCD_L">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TCCD_L_MIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TCKE">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TCKEMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TFAW">21000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TFAWMIN">21000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TFAW_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMOD">24</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMOD_MIN">24</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMRD">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMRDMIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMRD_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMRW">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TMRWMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TODTon_MIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TOSCO">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TOSCOMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TOSCO_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TPAR_ALERT_ON">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TPAR_ALERT_PW_MAX">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TPDM_RD">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRAS">32000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRASMIN">32000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRAS_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRCD">13750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRCDMIN">13750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRCD_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRPAB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRPABMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRPAB_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRPPB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRPPBMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRPPB_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRD">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRDMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRD_L">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRD_L_MIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRD_S">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRD_S_MIN">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRRD_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRTP">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRTPMIN">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TRTP_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWR">15000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWRMIN">15000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWR_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTR">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTRMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTR_L">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTR_L_MIN">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTR_S">2500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTR_S_MIN">2500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TWTR_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TXP">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TXPMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TZQLAT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TZQLATMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_F1_TZQLAT_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_FCV_FULLCAL">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_FLIPPED_PINOUT">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_FREQ_PARAM">F0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_FREQ_SEL">SYS_CLK_FROM_MEMORY_CLK</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_FREQ_SWITCHING_EN">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_IBUFDISABLE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_IDLE_TIME_ENTR_PWR_DOWN_MODE">0x00000AA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_IDLE_TIME_ENTR_SELF_REF_MODE">0x0020000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INIT_MEM_USING_ECC_SCRUB">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INPUTCLK0_PERIOD">5000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INPUTCLK1_PERIOD">2500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INPUT_FREQUENCY0">200.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INPUT_FREQUENCY1">400.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INTERLEAVE_SIZE">128</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INTERNAL_CA_PARITY_EN">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_INTERNAL_SYSCLK_EN">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_IP_TIMEPERIOD0_FOR_OP">1250</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_IP_TIMEPERIOD1">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CA_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CA_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CKE_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CKE_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CKT_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CKT_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CS_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_CS_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_DMI_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_DMI_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_DQS_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_DQS_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_DQ_A_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_DQ_B_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_OPERATING_TEMP">STANDARD</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_PIN_EFFICIENT">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LP4_RESETN_WIDTH">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LPDDR4_REFRESH_TYPE">ALL_BANK</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_LR_WIDTH">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MAIN_BASE_ADDR">0xF6150000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MAIN_MODULE_NAME">DDRMC_MAIN_0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_DENSITY">8GB</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_DEVICETYPE">UDIMMs</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_DEVICE_DENSITY">8Gb</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_FREQUENCY1">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_FREQUENCY2">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_SPEEDGRADE">DDR4-3200AA(22-22-22)</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_TIMEPERIOD0">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEMORY_TIMEPERIOD1">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEM_ADDRESS_MAP">ROW_COLUMN_BANK</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEM_DEVICE_WIDTH">x8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_MEM_INIT_FILE">no_file_loaded</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_NETLIST_SIMULATION">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_NOC_BASE_ADDR">0xF6070000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_NOC_MODULE_NAME">DDRMC_NOC_0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_NO_CHANNELS">Single</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_NUM_CK">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ODTLon">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ODT_WIDTH">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_OP_TIMEPERIOD0">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_OP_TIMEPERIOD1">625</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ORDERING">Strict</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_PARITY">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_PARITYLATENCY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_PER_RD_INTVL">20000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_PHYS_NAME">DDRMC_X0Y0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_POWERMODES">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_PRE_DEF_ADDR_MAP_SEL">ROW_BANK_COLUMN_BGO</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_PRUNECHIP_SIM_CHANGES">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_RANK">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_RCD_DELAY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_RCD_PARITY">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_READ_BANDWIDTH">6400.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_READ_DBI">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REFRESH_RATE">1x</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REFRESH_SPEED">1x_SPEED-NORMAL_TEMPERATURE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REF_AND_PER_CAL_INTF">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REGION">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REGVAL_COMPARE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC10">0x0f34c2ca</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC11">0x00c0e190</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC4">0x30c30c30</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC5">0x15513491</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC6">0x1a6585d6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC7">0x1f79d71b</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC8">0x03c30c20</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_ADEC9">0x09207144</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_BER_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_BEW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_CTRL0">0x01ffffff</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_CTRL1">0x01084210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_ISR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_ISW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_CMDQ_LLR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_NSU0_PORT">0x00000100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_NSU1_PORT">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_NSU2_PORT">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_NSU3_PORT">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P0_BER_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P0_BEW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P0_ISR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P0_ISW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P0_LLR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P1_BER_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P1_BEW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P1_ISR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P1_ISW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P1_LLR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P2_BER_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P2_BEW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P2_ISR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P2_ISW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P2_LLR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P3_BER_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P3_BEW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P3_ISR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P3_ISW_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_P3_LLR_RATE_CTRL">0x003ffc0f</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS0">0x001e01e0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS1">0x0ff00804</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS2">0x0003fc02</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS_RATE_CTRL_SCALE">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS_TIMEOUT0">0x00421084</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS_TIMEOUT1">0xbbbbbbbb</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_QOS_TIMEOUT2">0x000000bb</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_RATE_CTRL_SCALE">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P0">0x00ff0404</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P0">0x0000ff04</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ROWADDRESSWIDTH">16</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_RTT">RZQ/6</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SAVERESTORE">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SCRUBBING">off</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SELFREFRESH">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SILICON_REVISION">NA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SIMMODE">BFM</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SKIPCAL">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SLOT">Single</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_STACKHEIGHT">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SVFLOW">Disable</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_SYSTEM_CLOCK">Differential</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TBCW">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCDMW">32</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD_3DS">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD_3DS_MIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD_L">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD_L_MIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD_L_nCK">5</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCCD_S">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCK">628</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCKE">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCKEMIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TCMR_MRD">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TDQS2DQ_MAX">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TDQS2DQ_MIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TDQSCK_MAX">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TDQSCK_MIN">1500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TDQSS_MAX">1.25</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TDQSS_MIN">0.75</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TEMP_DIR_DELETE">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TFAW">21000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TFAWMIN">21000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TFAW_DLR">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TFAW_nCK">34</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMOD">24</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMOD_MIN">24</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMOD_nCK">24</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMPRR">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRC">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRD">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRDMIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRD_div4">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRD_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRR">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRW">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRWMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRW_div4">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TMRW_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TODTon_MIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TOSCO">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TOSCOMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TOSCO_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TPAR_ALERT_ON">10</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TPAR_ALERT_PW_MAX">192</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TPBR2PBR">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TPBR2PBRMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TPDM_RD">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRAS">32000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRASMIN">32000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRAS_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRC">45750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRCD">13750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRCDMIN">13750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRCD_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRCMIN">45750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TREFI">7800000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TREFIPB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFC">350000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFCAB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFCABMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFCMIN">350000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFCPB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFCPBMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRFC_DLR">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRP">13750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPAB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPABMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPAB_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPMIN">13750</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPPB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPPBMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPPB_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPRE">0.9</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRPST">0.4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRDMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_DLR">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_L">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_L_MIN">8</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_L_nCK">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_S">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_S_MIN">4</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_S_nCK">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRRD_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRTP">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRTPMIN">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRTP_nCK">12</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TRTW">350</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TSTAB">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWPRE">0.9</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWPST">0.33</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWR">15000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWRMIN">15000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWR_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTR">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTRMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTR_L">7500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTR_L_MIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTR_S">2500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTR_S_MIN">2500</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TWTR_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TXP">10</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TXPMIN">10</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TXPR">576</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TXPR_nCK">5</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQCAL">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQCAL_div4">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQCS">128</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQCS_ITVL">1000000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQINIT">1024</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQLAT">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQLATMIN">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQLAT_div4">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQLAT_nCK">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_TZQ_START_ITVL">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_UBLAZE_APB_INTF">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_UB_CLK_MUX">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_USERREFRESH">false</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_USER_DEFINED_ADDRESS_MAP">16RA-2BA-2BG-10CA</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_VNC_ENABLE">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_WRITE_BANDWIDTH">6400.000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_WRITE_DM_DBI">DM_NO_DBI</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XLNX_RESPONDER">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG0">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG1">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG10">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG11">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG12">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG13">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG14">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG15">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG2">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG3">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG4">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG5">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG6">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG7">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG8">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CONFIG9">0x00000008</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_CTRL">0x0000000b</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI10">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI11">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI12">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI13">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI14">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI15">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI4">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI5">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI6">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI7">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI8">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_HI9">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO10">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO11">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO12">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO13">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO14">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO15">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO4">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO5">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO6">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO7">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO8">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_END_LO9">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER10">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER11">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER12">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER13">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER14">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER15">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER4">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER5">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER6">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER7">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER8">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_MASTER9">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI10">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI11">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI12">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI13">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI14">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI15">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI4">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI5">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI6">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI7">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI8">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_HI9">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO0">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO1">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO10">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO11">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO12">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO13">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO14">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO15">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO2">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO3">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO4">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO5">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO6">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO7">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO8">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XMPU_START_LO9">0x00000000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUT1_PERIOD">1250</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUT1_PHASE">236.25</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUT1_PH_CTRL">0x3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUT2_PHASE">0.0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUT2_PH_CTRL">0x1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUTPHY_CASCIN_EN">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_CLKOUTPHY_CASCOUT_EN">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DESKEW2_MUXIN_SEL">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DESKEW_MUXIN_SEL">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DIV4_CLKOUT12">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DIV4_CLKOUT3">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DSKW_DLY1">12</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DSKW_DLY2">15</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DSKW_DLY_EN1">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DSKW_DLY_EN2">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DSKW_DLY_PATH1">FALSE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_DSKW_DLY_PATH2">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_XPLL_MODE">VarRxVarTx</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ZQCS_FREQUENCY">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ZQCS_PIN">true</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MC_ZQINTVL">350</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NOC_FREQ">1000</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NUM_MC">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_0_EGR">0x00473610</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_0_ING">0x04534101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_0_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_0_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_1_EGR">0x00043210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_1_ING">0x00432101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_1_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_1_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_2_EGR">0x00043210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_2_ING">0x00432101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_2_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_2_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_3_EGR">0x00043210</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_3_ING">0x00432101</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_3_R_EGR">0x01010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_3_W_EGR">0x00010100</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.ARCHITECTURE">versal</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BASE_BOARD_PART">xilinx.com:vck190:part0:2.2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.BOARD_CONNECTIONS"/>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.DEVICE">xcvc1902</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.PACKAGE">vsva2197</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.PREFHDL">VERILOG</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.SILICON_REVISION"/>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.SIMULATOR_LANGUAGE">MIXED</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.SPEEDGRADE">-2MP</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.STATIC_POWER">S</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.TEMPERATURE_GRADE">E</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.USE_RDI_CUSTOMIZATION">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PROJECT_PARAM.USE_RDI_GENERATION">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPCONTEXT">IP_Integrator</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.IPREVISION">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.MANAGED">TRUE</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.OUTPUTDIR">.</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SELECTEDSIMMODEL"/>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SHAREDDIR">../../../../../ipshared</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SWVERSION">2021.1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="RUNTIME_PARAM.SYNTHESISFLOW">GLOBAL</spirit:configurableElementValue>
+      </spirit:configurableElementValues>
+      <spirit:vendorExtensions>
+        <xilinx:componentInstanceExtensions>
+          <xilinx:configElementInfos>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.AXI_ARBITRATION_SCHEME" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.BURST_LENGTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CAS_LATENCY" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CAS_WRITE_LATENCY" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CS_ENABLED" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.CUSTOM_PARTS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.DATA_MASK_ENABLED" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.DATA_WIDTH" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.MEMORY_PART" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.MEMORY_TYPE" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.MEM_ADDR_MAP" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.SLOT" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CH0_DDR4.TIMEPERIOD_PS" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_IN_0.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_IN_1.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_IN_2.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_IN_3.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_OUT_0.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_OUT_1.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_OUT_2.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.NPP_OUT_3.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SYS_CLK.CAN_DEBUG" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.SYS_CLK.FREQ_HZ" xilinx:valueSource="user_prop" xilinx:valuePermission="bd"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.CONTROLLERTYPE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_ATTR_FILE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_CASLATENCY" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_CHAN_REGION0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_CHAN_REGION1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_CONFIG_NUM" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_DC_CMD_CREDITS" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_DDR4_2T" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_EN_INTR_RESP" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_EXMON_CLR_EXE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR22" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_LPDDR4_MR3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_TRCD" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_F1_TRCDMIN" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_INPUTCLK0_PERIOD" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_INPUT_FREQUENCY0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_INTERLEAVE_SIZE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_MEMORY_DEVICETYPE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_MEMORY_SPEEDGRADE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_MEM_INIT_FILE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_NO_CHANNELS" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_PHYS_NAME" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_ADEC9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_BER_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_BEW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_CTRL0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_CTRL1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_ISR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_ISW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_CMDQ_LLR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_NSU0_PORT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_NSU1_PORT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_NSU2_PORT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_NSU3_PORT" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P0_BER_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P0_BEW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P0_ISR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P0_ISW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P0_LLR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P1_BER_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P1_BEW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P1_ISR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P1_ISW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P1_LLR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P2_BER_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P2_BEW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P2_ISR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P2_ISW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P2_LLR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P3_BER_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P3_BEW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P3_ISR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P3_ISW_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_P3_LLR_RATE_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS_RATE_CTRL_SCALE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS_TIMEOUT0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS_TIMEOUT1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_QOS_TIMEOUT2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_RATE_CTRL_SCALE" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_RD_DRR_TKN_P3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_REG_WR_DRR_TKN_P3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TCK" xilinx:valuePermission="bd_and_user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TRC" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TRCD" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TRCDMIN" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TRCMIN" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TRP" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_TRPMIN" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_UB_CLK_MUX" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG12" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG14" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG15" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CONFIG9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_CTRL" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI12" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI14" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI15" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_HI9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO12" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO14" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO15" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_END_LO9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER12" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER14" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER15" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_MASTER9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI12" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI14" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI15" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_HI9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO0" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO1" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO10" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO11" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO12" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO13" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO14" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO15" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO2" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO3" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO4" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO5" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO6" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO7" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO8" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.MC_XMPU_START_LO9" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.NOC_FREQ" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.NUM_MC" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_0_EGR" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_0_ING" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_1_EGR" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_1_ING" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_2_EGR" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_2_ING" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_3_EGR" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USER_NPI_REG_MC_NSU_3_ING" xilinx:valueSource="user"/>
+          </xilinx:configElementInfos>
+          <xilinx:boundaryDescriptionInfo>
+            <xilinx:boundaryDescription xilinx:boundaryDescriptionJSON="{&quot;ip_boundary&quot;:{&quot;ports&quot;:{&quot;ch0_ddr4_act_n&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;ch0_ddr4_adr&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;16&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_ba&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;1&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_bg&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;1&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_ck_c&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_ck_t&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_cke&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_cs_n&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_dm_dbi_n&quot;:[{&quot;direction&quot;:&quot;inout&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_dq&quot;:[{&quot;direction&quot;:&quot;inout&quot;,&quot;physical_left&quot;:&quot;63&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;
+:&quot;true&quot;}],&quot;ch0_ddr4_dqs_c&quot;:[{&quot;direction&quot;:&quot;inout&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_dqs_t&quot;:[{&quot;direction&quot;:&quot;inout&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_odt&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;ch0_ddr4_reset_n&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;dmc2noc_credit_rdy_0&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;dmc2noc_credit_rdy_1&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;dmc2noc_credit_rdy_2&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;dmc2noc_credit_rdy_3&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;dmc2noc_credit_rtn_0&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_credit_rtn_1&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:
+&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_credit_rtn_2&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_credit_rtn_3&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_data_out_0&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_data_out_1&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_data_out_2&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_data_out_3&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_valid_out_0&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_valid_out_1&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_valid_out_2&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;dmc2noc_va
+lid_out_3&quot;:[{&quot;direction&quot;:&quot;out&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;from_noc_0&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;from_noc_1&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;from_noc_2&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;from_noc_3&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;noc2dmc_credit_rdy_0&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;noc2dmc_credit_rdy_1&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;noc2dmc_credit_rdy_2&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;noc2dmc_credit_rdy_3&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;noc2dmc_credit_rtn_0&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;n
+oc2dmc_credit_rtn_1&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_credit_rtn_2&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_credit_rtn_3&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_data_in_0&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_data_in_1&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_data_in_2&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_data_in_3&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_valid_in_0&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_valid_in_1&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_valid_in_2&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_rig
+ht&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;noc2dmc_valid_in_3&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;true&quot;}],&quot;sys_clk_n&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}],&quot;sys_clk_p&quot;:[{&quot;direction&quot;:&quot;in&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;is_vector&quot;:&quot;false&quot;}]},&quot;interfaces&quot;:{&quot;CH0_DDR4&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:ddr4:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:ddr4_rtl:1.0&quot;,&quot;mode&quot;:&quot;master&quot;,&quot;parameters&quot;:{&quot;AXI_ARBITRATION_SCHEME&quot;:[{&quot;value&quot;:&quot;TDM&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;BURST_LENGTH&quot;:[{&quot;value&quot;:&quot;8&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;long&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferre
+d&quot;:true,&quot;is_static_object&quot;:false}],&quot;CAS_LATENCY&quot;:[{&quot;value&quot;:&quot;11&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;long&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;CAS_WRITE_LATENCY&quot;:[{&quot;value&quot;:&quot;11&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;long&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;CS_ENABLED&quot;:[{&quot;value&quot;:&quot;true&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;CUSTOM_PARTS&quot;:[{&quot;value&quot;:&quot;&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;DATA_MASK_ENABLED&quot;:[{&quot;value&quot;:&quot;true&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;DATA_WIDTH&quot;:[{&quot;value&quot;:&quot;8&quot;,&quot;value
+_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;long&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;MEMORY_PART&quot;:[{&quot;value&quot;:&quot;&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;MEMORY_TYPE&quot;:[{&quot;value&quot;:&quot;COMPONENTS&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;MEM_ADDR_MAP&quot;:[{&quot;value&quot;:&quot;ROW_COLUMN_BANK&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;SLOT&quot;:[{&quot;value&quot;:&quot;Single&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;TIMEPERIOD_PS&quot;:[{&quot;value&quot;:&quot;1250&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:
+&quot;generated&quot;,&quot;format&quot;:&quot;string&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;ACT_N&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_act_n&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;ADR&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_adr&quot;,&quot;physical_left&quot;:&quot;16&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;16&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;ALERT_N&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_alert_n&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;BA&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_ba&quot;,&quot;physical_left&quot;:&quot;1&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;1&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;BG&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_bg&quot;,&quot;physical_left&quot;:&quot;1&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;1&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CKE&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_cke&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CK_C&quot;:[{&quot;
+physical_name&quot;:&quot;ch0_ddr4_ck_c&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CK_T&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_ck_t&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CS_N&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_cs_n&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;C_ID&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_c&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;DM_N&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_dm_dbi_n&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;DQ&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_dq&quot;,&quot;physical_left&quot;:&quot;63&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;63&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;DQS_C&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_dqs_c&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port
+_maps_used&quot;:&quot;none&quot;}],&quot;DQS_T&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_dqs_t&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;ODT&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_odt&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;PAR&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_parity&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;RESET_N&quot;:[{&quot;physical_name&quot;:&quot;ch0_ddr4_reset_n&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_IN_0&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;slave&quot;,&quot;memory_map_ref&quot;:&quot;C0_MEMORY_MAP&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;p
+hysical_name&quot;:&quot;noc2dmc_credit_rdy_0&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rtn_0&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_data_in_0&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_valid_in_0&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_IN_1&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;slave&quot;,&quot;memory_map_ref&quot;:&quot;C1_MEMORY_MAP&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;phy
+sical_name&quot;:&quot;noc2dmc_credit_rdy_1&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rtn_1&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_data_in_1&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_valid_in_1&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_IN_2&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;slave&quot;,&quot;memory_map_ref&quot;:&quot;C2_MEMORY_MAP&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;physi
+cal_name&quot;:&quot;noc2dmc_credit_rdy_2&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rtn_2&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_data_in_2&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_valid_in_2&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_IN_3&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;slave&quot;,&quot;memory_map_ref&quot;:&quot;C3_MEMORY_MAP&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;physica
+l_name&quot;:&quot;noc2dmc_credit_rdy_3&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rtn_3&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_data_in_3&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_valid_in_3&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_OUT_0&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;master&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rdy_0&quot;,&quot;p
+hysical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_credit_rtn_0&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_data_out_0&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_valid_out_0&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_OUT_1&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;master&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rdy_1&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_rig
+ht&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_credit_rtn_1&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_data_out_1&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_valid_out_1&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_OUT_2&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;master&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rdy_2&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;log
+ical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_credit_rtn_2&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_data_out_2&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_valid_out_2&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;NPP_OUT_3&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:npp:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:npp_rtl:1.0&quot;,&quot;mode&quot;:&quot;master&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}]},&quot;port_maps&quot;:{&quot;CREDIT_RDY&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_credit_rdy_3&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used
+&quot;:&quot;none&quot;}],&quot;CREDIT_RETURN&quot;:[{&quot;physical_name&quot;:&quot;noc2dmc_credit_rtn_3&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;FLIT&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_data_out_3&quot;,&quot;physical_left&quot;:&quot;181&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;181&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;VALID&quot;:[{&quot;physical_name&quot;:&quot;dmc2noc_valid_out_3&quot;,&quot;physical_left&quot;:&quot;7&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;7&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}},&quot;SYS_CLK&quot;:{&quot;vlnv&quot;:&quot;xilinx.com:interface:diff_clock:1.0&quot;,&quot;abstraction_type&quot;:&quot;xilinx.com:interface:diff_clock_rtl:1.0&quot;,&quot;mode&quot;:&quot;slave&quot;,&quot;parameters&quot;:{&quot;CAN_DEBUG&quot;:[{&quot;value&quot;:&quot;false&quot;,&quot;value_src&quot;:&quot;default&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;bool&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:false}],&quot;FREQ_HZ&quot;:[{&quot;value&quot;:&quot;200000000&quot;,&quot;value_src&quot;:&quot;user_prop&quot;,&quot;value_permission&quot;:&quot;bd&quot;,&quot;resolve_type&quot;:&quot;generated&quot;,&quot;format&quot;:&quot;long&quot;,&quot;usage&quot;:&quot;none&quot;,&quot;is_ips_inferred&quot;:true,&quot;is_static_object&quot;:fal
+se}]},&quot;port_maps&quot;:{&quot;CLK_N&quot;:[{&quot;physical_name&quot;:&quot;sys_clk_n&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}],&quot;CLK_P&quot;:[{&quot;physical_name&quot;:&quot;sys_clk_p&quot;,&quot;physical_left&quot;:&quot;0&quot;,&quot;physical_right&quot;:&quot;0&quot;,&quot;logical_left&quot;:&quot;0&quot;,&quot;logical_right&quot;:&quot;0&quot;,&quot;port_maps_used&quot;:&quot;none&quot;}]}}},&quot;memory_maps&quot;:{&quot;C0_MEMORY_MAP&quot;:{&quot;address_blocks&quot;:{&quot;C0_DDR_CH1&quot;:[{&quot;base_address&quot;:&quot;0x50000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_CH1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_CH1_1&quot;:[{&quot;base_address&quot;:&quot;0x58000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_CH1_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_CH2&quot;:[{&quot;base_address&quot;:&quot;0x60000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_CH2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_CH2_1&quot;:[{&quot;base_address&quot;:&quot;0x68000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_CH2_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_CH3&quot;:[{&quot;base_address&quot;:&quot;0x70000000000&quot;,&quot;rang
+e&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_CH3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_CH3_1&quot;:[{&quot;base_address&quot;:&quot;0x78000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_CH3_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_LOW0&quot;:[{&quot;base_address&quot;:&quot;0x0000000000&quot;,&quot;range&quot;:&quot;0x80000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_LOW0&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_LOW1&quot;:[{&quot;base_address&quot;:&quot;0x0800000000&quot;,&quot;range&quot;:&quot;0x800000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_LOW1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_LOW2&quot;:[{&quot;base_address&quot;:&quot;0xC000000000&quot;,&quot;range&quot;:&quot;0x4000000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_LOW2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C0_DDR_LOW3&quot;:[{&quot;base_address&quot;:&quot;0x10000000000&quot;,&quot;range&quot;:&quot;0xB780000000&quot;,&quot;display_name&quot;:&quot;C0_DDR_LOW3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}]}},&quot;C1_MEMORY_MAP&quot;:{&quot;address_blocks&quot;:{&quot;C1_DDR_CH1&quot;:[{&quot;base_address&quot;:&quot;0x50000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_CH1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;acces
+s&quot;:&quot;&quot;}],&quot;C1_DDR_CH1_1&quot;:[{&quot;base_address&quot;:&quot;0x58000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_CH1_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_CH2&quot;:[{&quot;base_address&quot;:&quot;0x60000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_CH2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_CH2_1&quot;:[{&quot;base_address&quot;:&quot;0x68000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_CH2_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_CH3&quot;:[{&quot;base_address&quot;:&quot;0x70000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_CH3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_CH3_1&quot;:[{&quot;base_address&quot;:&quot;0x78000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_CH3_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_LOW0&quot;:[{&quot;base_address&quot;:&quot;0x0000000000&quot;,&quot;range&quot;:&quot;0x80000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_LOW0&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_LOW1&quot;:[{&quot;base_address&quot;:&quot;0x0800000000&quot;,&quot;range&quot;:&quot;0x800000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_LOW1&quot;,&quot;description&quot;
+:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_LOW2&quot;:[{&quot;base_address&quot;:&quot;0xC000000000&quot;,&quot;range&quot;:&quot;0x4000000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_LOW2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C1_DDR_LOW3&quot;:[{&quot;base_address&quot;:&quot;0x10000000000&quot;,&quot;range&quot;:&quot;0xB780000000&quot;,&quot;display_name&quot;:&quot;C1_DDR_LOW3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}]}},&quot;C2_MEMORY_MAP&quot;:{&quot;address_blocks&quot;:{&quot;C2_DDR_CH1&quot;:[{&quot;base_address&quot;:&quot;0x50000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_CH1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_CH1_1&quot;:[{&quot;base_address&quot;:&quot;0x58000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_CH1_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_CH2&quot;:[{&quot;base_address&quot;:&quot;0x60000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_CH2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_CH2_1&quot;:[{&quot;base_address&quot;:&quot;0x68000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_CH2_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_CH3&quot;:[{&quot;base_address&quot;:&quot;0x70000000000&quot;,
+&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_CH3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_CH3_1&quot;:[{&quot;base_address&quot;:&quot;0x78000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_CH3_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_LOW0&quot;:[{&quot;base_address&quot;:&quot;0x0000000000&quot;,&quot;range&quot;:&quot;0x80000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_LOW0&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_LOW1&quot;:[{&quot;base_address&quot;:&quot;0x0800000000&quot;,&quot;range&quot;:&quot;0x800000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_LOW1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_LOW2&quot;:[{&quot;base_address&quot;:&quot;0xC000000000&quot;,&quot;range&quot;:&quot;0x4000000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_LOW2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C2_DDR_LOW3&quot;:[{&quot;base_address&quot;:&quot;0x10000000000&quot;,&quot;range&quot;:&quot;0xB780000000&quot;,&quot;display_name&quot;:&quot;C2_DDR_LOW3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}]}},&quot;C3_MEMORY_MAP&quot;:{&quot;address_blocks&quot;:{&quot;C3_DDR_CH1&quot;:[{&quot;base_address&quot;:&quot;0x50000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_CH1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;
+access&quot;:&quot;&quot;}],&quot;C3_DDR_CH1_1&quot;:[{&quot;base_address&quot;:&quot;0x58000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_CH1_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_CH2&quot;:[{&quot;base_address&quot;:&quot;0x60000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_CH2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_CH2_1&quot;:[{&quot;base_address&quot;:&quot;0x68000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_CH2_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_CH3&quot;:[{&quot;base_address&quot;:&quot;0x70000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_CH3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_CH3_1&quot;:[{&quot;base_address&quot;:&quot;0x78000000000&quot;,&quot;range&quot;:&quot;0x8000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_CH3_1&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_LOW0&quot;:[{&quot;base_address&quot;:&quot;0x0000000000&quot;,&quot;range&quot;:&quot;0x80000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_LOW0&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_LOW1&quot;:[{&quot;base_address&quot;:&quot;0x0800000000&quot;,&quot;range&quot;:&quot;0x800000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_LOW1&quot;,&quot;descrip
+tion&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_LOW2&quot;:[{&quot;base_address&quot;:&quot;0xC000000000&quot;,&quot;range&quot;:&quot;0x4000000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_LOW2&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}],&quot;C3_DDR_LOW3&quot;:[{&quot;base_address&quot;:&quot;0x10000000000&quot;,&quot;range&quot;:&quot;0xB780000000&quot;,&quot;display_name&quot;:&quot;C3_DDR_LOW3&quot;,&quot;description&quot;:&quot;&quot;,&quot;usage&quot;:&quot;memory&quot;,&quot;access&quot;:&quot;&quot;}]}}}}}"/>
+          </xilinx:boundaryDescriptionInfo>
+        </xilinx:componentInstanceExtensions>
+      </spirit:vendorExtensions>
+    </spirit:componentInstance>
+  </spirit:componentInstances>
+</spirit:design>

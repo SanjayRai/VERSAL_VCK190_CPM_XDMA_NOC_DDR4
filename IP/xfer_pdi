@@ -1,0 +1,2 @@
+scp ./project_X/project_X.runs/impl_1/CPM_bd_wrapper.pdi sanjayr@mc32gblnx:projects/VCK190/T1/
+scp ./project_X/project_X.runs/impl_1/CPM_bd_wrapper.ltx sanjayr@mc32gblnx:projects/VCK190/T1/

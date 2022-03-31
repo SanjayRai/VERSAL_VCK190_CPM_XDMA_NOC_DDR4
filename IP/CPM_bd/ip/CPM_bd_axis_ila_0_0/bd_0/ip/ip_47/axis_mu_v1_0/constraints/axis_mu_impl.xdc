@@ -1,0 +1,3 @@
+
+          set_false_path -from [get_pins -filter {REF_PIN_NAME=~CLK*} -of_objects [get_cells MU_EQ.drive_srl/S1*]] -to [get_pins -filter {REF_PIN_NAME=~D*} -of_objects [get_cells MU_EQ.drive_o6_reg*]]
+          create_waiver -type CDC -id CDC-1 -from [get_pins -filter {REF_PIN_NAME=~CLK*} -of_objects [get_cells MU_EQ.drive_srl/S1*]] -to [get_pins -filter {REF_PIN_NAME=~D*} -of_objects [get_cells MU_EQ.drive_o6_reg*]]  -user "axis_ila" -description {This CDC is coming in Match unit of ILA. After the source gets updated, there is very large time after which the destination get the value.} -tags "1052662" -scope -internal 

@@ -1,0 +1,7 @@
+petalinux-create -t project  -n versal_PLX --template versal
+cd versal_PLX/
+petalinux-config --get-hw-description=../../vivado_project/vck190_tester_top.xsa 
+petalinux-config -c kernel
+petalinux-config -c rootfs
+petalinux-build 
+petalinux-package --boot --u-boot

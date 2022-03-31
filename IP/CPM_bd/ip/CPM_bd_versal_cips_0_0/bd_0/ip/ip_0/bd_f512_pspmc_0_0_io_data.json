@@ -1,0 +1,4 @@
+{
+    "refName": "bd_f512_pspmc_0_0",
+    "pss_io": "(*PSS_IO= \"Signal Name, DiffPair Type, DiffPair Signal,Direction, Site Type, IO Standard, Drive (mA), Slew Rate, Pull Type, IBIS Model, ODT, OUTPUT_IMPEDANCE \\n\\\nPCIE_RESET1_N, , , IN, PMC_MIO38_501, LVCMOS1.8, 8MA, SLOW, PULLUP, PS_MIO_LVCMOS1.8_S_8MA,, \" *) "
+}

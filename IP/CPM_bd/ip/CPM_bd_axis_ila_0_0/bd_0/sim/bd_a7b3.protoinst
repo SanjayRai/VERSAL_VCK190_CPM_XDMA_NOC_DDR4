@@ -1,0 +1,53 @@
+{
+	"version": "1.0",
+	"modules": {
+		"bd_a7b3": {
+			"proto_instances": {
+				"/axis_dbg_stub/m_axis_int": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk_int"},
+						"ARESETN": { "actual": "aresetn_int"},
+						"TDATA": { "actual": "m_axis_tdata_int"},
+						"TLAST": { "actual": "m_axis_tlast_int"},
+						"TREADY": { "actual": "m_axis_tready_int"},
+						"TVALID": { "actual": "m_axis_tvalid_int"}
+					}
+				},
+				"/axis_dbg_stub/s_axis_int": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "aclk_int"},
+						"ARESETN": { "actual": "aresetn_int"},
+						"TDATA": { "actual": "s_axis_tdata_int"},
+						"TLAST": { "actual": "s_axis_tlast_int"},
+						"TREADY": { "actual": "s_axis_tready_int"},
+						"TVALID": { "actual": "s_axis_tvalid_int"}
+					}
+				},
+				"/axis_ila_intf/M_AXIS": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "M_AXIS_ACLK"},
+						"ARESETN": { "actual": "M_AXIS_ARESETN"},
+						"TDATA": { "actual": "M_AXIS_TDATA"},
+						"TLAST": { "actual": "M_AXIS_TLAST"},
+						"TREADY": { "actual": "M_AXIS_TREADY"},
+						"TVALID": { "actual": "M_AXIS_TVALID"}
+					}
+				},
+				"/axis_ila_intf/S_AXIS": {
+					"interface": "xilinx.com:interface:axis:1.0",
+					"ports": {
+						"ACLK": { "actual": "S_AXIS_ACLK"},
+						"ARESETN": { "actual": "S_AXIS_ARESETN"},
+						"TDATA": { "actual": "S_AXIS_TDATA"},
+						"TLAST": { "actual": "S_AXIS_TLAST"},
+						"TREADY": { "actual": "S_AXIS_TREADY"},
+						"TVALID": { "actual": "S_AXIS_TVALID"}
+					}
+				}
+			}
+		}
+	}
+}
